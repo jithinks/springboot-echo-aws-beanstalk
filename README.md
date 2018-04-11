@@ -1,6 +1,6 @@
 Local---
 >chmod 400 ec2-ohio.pem
->ssh -i "ec2-ohio.pem" ec2-user@<<IP>>
+>ssh -i "*.pem" ec2-user@<<IP>>
 
 Aws--
 >sudo apt update
@@ -8,7 +8,7 @@ Aws--
 >java -version
 
 Local--
->scp -i ec2-ohio.pem springboot-echo-0.0.1.jar ec2-user@<<IP>>:/home/ec2-user
+>scp -i *.pem springboot-echo-0.0.1.jar ec2-user@<<IP>>:/home/ec2-user
 
 AWS--
 >java -jar /home/ec2-user/springboot-echo-0.0.1.jar

@@ -5,7 +5,7 @@
 
 	<groupId>com.jks.startup</groupId>
 	<artifactId>springboot-echo</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>springboot-echo</name>

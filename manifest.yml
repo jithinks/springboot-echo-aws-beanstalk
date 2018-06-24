@@ -1,0 +1,8 @@
+---
+applications:
+- name: startup
+  host: echo-startup
+  memory: 1G
+  random-route: true
+  path: target\springboot-echo-0.0.3.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git

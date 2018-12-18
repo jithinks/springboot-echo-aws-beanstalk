@@ -21,3 +21,8 @@ https://aws.amazon.com/blogs/devops/deploying-a-spring-boot-application-on-aws-u
 SERVER_PORT 5000
 
 
+Pivotal--
+cf login -a api.run.pivotal.io
+cf api
+cf apps
+cf push
